@@ -19,7 +19,10 @@ script:
 deploy:
   skip_cleanup: true
   provider: script
-  script: IMAGE_TAG=${TRAVIS_TAG#?} scripts/travis/push-image.sh editor
+  script: >-
+    docker build -t libero/editor . &&
+    docker tag libero/editor libero/editor:${TRAVIS_TAG#?} &&
+    IMAGE_TAG=${TRAVIS_TAG#?} scripts/travis/push-image.sh editor
   on:
     branch: master
     tags: true
