@@ -1,11 +1,12 @@
-FROM node:10 as build
+FROM node:12 as build
 
 WORKDIR /app
 COPY ./package.json ./dist/bin/* ./
 RUN npm install --production
-COPY ./node_modules/substance-texture/dist ./www
+COPY ./html/ ./www/
+COPY ./node_modules/@libero/texture/dist/ ./www/
 
-FROM node:10-alpine
+FROM node:12-alpine
 COPY --from=build /app /
 EXPOSE 8080
 

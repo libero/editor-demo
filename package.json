@@ -8,6 +8,7 @@
   ],
   "scripts": {
     "build": "tsc",
+    "clean": "rm -rf ./dist ./node_modules",
     "test": "jest --config jestconfig.json --passWithNoTests",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
@@ -58,7 +59,7 @@
     "typescript": "^3.6.3"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "substance-texture": "^1.0.0-alpha.3"
+    "@libero/texture": "0.0.1",
+    "express": "^4.17.1"
   }
 }
