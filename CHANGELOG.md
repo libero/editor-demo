@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/libero/editor/compare/v0.0.2...v0.0.3) (2019-11-11)
+
+
+### Bug Fixes
+
+* update to latest version of libero texture ([b6127ec](https://github.com/libero/editor/commit/b6127ec4d380b5ac1fd481051e908d660669521c))
+
 ### [0.0.2](https://github.com/libero/editor/compare/v0.0.1...v0.0.2) (2019-11-07)
 
 
