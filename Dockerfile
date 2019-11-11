@@ -3,7 +3,8 @@ FROM node:12 as build
 WORKDIR /app
 COPY ./package.json ./dist/bin/* ./
 RUN npm install --production
-COPY ./html/ ./www/
+COPY ./src/html/ ./www/
+COPY ./dist/vfs/ ./www/
 COPY ./node_modules/@libero/texture/dist/ ./www/
 
 FROM node:12-alpine

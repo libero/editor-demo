@@ -6,11 +6,12 @@
   
     window.addEventListener('load', () => {
       substance.substanceGlobals.DEBUG_RENDERING = true;
+      substance.substanceGlobals.STRICT_VALIDATION = false;
       substanceTexture.Texture.defaultDataFolder = './demo/data/';
       setTimeout(() => {
         let app = DevWebApp.mount({
           debug: true,
-          archiveId: substance.getQueryStringParam('archive') || 'blank',
+          archiveId: substance.getQueryStringParam('archive') || '00000',
           storageType: substance.getQueryStringParam('storage') || 'vfs',
           storageUrl: substance.getQueryStringParam('storageUrl') || '/archives',
           vfs: window.vfs,
