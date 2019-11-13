@@ -13,7 +13,7 @@ b.task('clean', function () {
 
 b.task('vfs', () => {
   vfs(b, {
-    src: ['./reference-manuscripts/manuscripts/**/*'],
+    src: ['./reference-manuscripts/manuscripts/**/*.xml'],
     dest: DIST + 'vfs/vfs.js',
     format: 'umd',
     moduleName: 'vfs',
