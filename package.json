@@ -43,24 +43,24 @@
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
     "@types/body-parser": "^1.17.1",
-    "@types/express": "^4.17.1",
-    "@types/jest": "^24.0.18",
-    "@types/node": "^12.7.12",
+    "@types/express": "^4.17.2",
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.7",
     "@types/supertest": "^2.0.8",
     "husky": "^3.0.8",
     "jest": "^24.9.0",
-    "prettier": "^1.18.2",
+    "prettier": "^1.19.1",
     "standard-version": "^7.0.0",
     "substance-bundler": "^0.27.2",
     "supertest": "^4.0.2",
     "ts-jest": "^24.1.0",
-    "tslint": "^5.20.0",
+    "tslint": "^5.20.1",
     "tslint-config-prettier": "^1.18.0",
-    "typedoc": "^0.15.0",
-    "typescript": "^3.6.3"
+    "typedoc": "^0.15.2",
+    "typescript": "^3.7.2"
   },
   "dependencies": {
-    "@libero/texture": "^0.0.2",
+    "@libero/texture": "0.0.3",
     "express": "^4.17.1"
   }
 }
