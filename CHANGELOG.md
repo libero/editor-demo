@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/libero/editor/compare/v0.0.3...v0.0.4) (2019-11-15)
+
+
+### Bug Fixes
+
+* only bundle manuscript xml files in vfs.js ([263329f](https://github.com/libero/editor/commit/263329fd8d37bc61c8ff6a1242753688386a424a))
+* update to latest version of libero texture ([5fc8992](https://github.com/libero/editor/commit/5fc89925209539cd2679a4176edba91078207894))
+
 ### [0.0.3](https://github.com/libero/editor/compare/v0.0.2...v0.0.3) (2019-11-11)
 
 

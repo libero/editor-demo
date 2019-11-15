@@ -1,6 +1,6 @@
 {
   "name": "@libero/editor",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A web-based XML editor",
   "main": "./dist/bin/index.js",
   "files": [
