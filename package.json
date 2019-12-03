@@ -8,6 +8,7 @@
   ],
   "scripts": {
     "build": "tsc && node make.js",
+    "debug": "mkdir -p ./debug/www && cp -f ./dist/bin/* ./debug && cp -rf ./dist/vfs/* ./src/html/* ./node_modules/@libero/texture/dist/* ./debug/www && cd ./debug && node index.js",
     "clean": "rm -rf ./dist ./node_modules",
     "test": "jest --config jestconfig.json --passWithNoTests",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
@@ -60,7 +61,7 @@
     "typescript": "^3.7.2"
   },
   "dependencies": {
-    "@libero/texture": "0.0.3",
+    "@libero/texture": "0.0.8",
     "express": "^4.17.1"
   }
 }
