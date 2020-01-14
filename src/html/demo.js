@@ -7,7 +7,7 @@
     window.addEventListener('load', () => {
       substance.substanceGlobals.DEBUG_RENDERING = true;
       substance.substanceGlobals.STRICT_VALIDATION = false;
-      substanceTexture.Texture.defaultDataFolder = './demo/data/';
+      substanceTexture.Texture.defaultDataFolder = './manuscripts/';
       setTimeout(() => {
         let app = DevWebApp.mount({
           debug: true,
