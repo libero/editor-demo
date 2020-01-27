@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/libero/editor/compare/v0.0.6...v0.0.7) (2020-01-27)
+
+
+### Bug Fixes
+
+* images not displayed in articles ([e27d926](https://github.com/libero/editor/commit/e27d926f4d79d20de37608c1cc757a27073319de))
+
 ### [0.0.6](https://github.com/libero/editor/compare/v0.0.5...v0.0.6) (2019-12-05)
 
 
