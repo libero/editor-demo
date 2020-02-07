@@ -3,4 +3,4 @@
 	url = https://github.com/libero/scripts
 [submodule "reference-manuscripts"]
 	path = reference-manuscripts
-	url = https://github.com/libero/reference-manuscripts
+	url = https://github.com/libero/editor-reference-manuscripts
