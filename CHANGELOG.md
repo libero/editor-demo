@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/libero/editor/compare/v0.0.7...v0.0.8) (2020-02-07)
+
+
+### Bug Fixes
+
+* remove redundant tslint config file ([9aba878](https://github.com/libero/editor/commit/9aba878264b0d08c9bc7f72c7c62af630f14ef28))
+
 ### [0.0.7](https://github.com/libero/editor/compare/v0.0.6...v0.0.7) (2020-01-27)
 
 
