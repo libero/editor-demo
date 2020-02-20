@@ -64,7 +64,7 @@
     "typescript": "^3.7.2"
   },
   "dependencies": {
-    "@libero/texture": "^0.0.12",
+    "@libero/texture": "^0.0.13",
     "express": "^4.17.1"
   }
 }
