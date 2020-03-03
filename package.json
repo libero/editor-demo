@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "build": "tsc && node make.js",
-    "debug": "mkdir -p ./debug/www && cp -f ./dist/bin/* ./debug && cp -rf ./dist/vfs/* ./src/html/* ./node_modules/@libero/texture/dist/* ./debug/www && cd ./debug && node index.js",
+    "debug": "bash debug.sh",
+    "debug:webpack": "bash debug-webpack.sh",
     "clean": "rm -rf ./dist ./node_modules",
     "test": "jest --config jestconfig.json --passWithNoTests",
     "lint": "eslint \"src/**/*.js\" \"src/**/*.ts\"",

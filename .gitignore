@@ -2,3 +2,7 @@ node_modules
 /dist
 /debug
 .DS_Store
+
+#IDEs
+/.vs_code
+/.idea
