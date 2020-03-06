@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/libero/editor/compare/v0.0.9...v0.0.10) (2020-03-06)
+
+
+### Bug Fixes
+
+* symlinks created in submodule ([d015a01](https://github.com/libero/editor/commit/d015a016073139c8262dcca8f7a8401a186102c0))
+
 ### [0.0.9](https://github.com/libero/editor/compare/v0.0.8...v0.0.9) (2020-02-20)
 
 ### [0.0.8](https://github.com/libero/editor/compare/v0.0.7...v0.0.8) (2020-02-07)
